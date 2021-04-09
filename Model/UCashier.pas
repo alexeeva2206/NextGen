@@ -1,10 +1,11 @@
 unit UCashier;
 
 interface
-type
- Cashier = class
 
- end;
+type
+  Cashier = class
+
+  end;
 
 implementation
 

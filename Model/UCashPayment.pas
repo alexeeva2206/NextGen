@@ -1,10 +1,12 @@
 unit UCashPayment;
 
 interface
-type
- CashPayment = class
 
- end;
+type
+  CashPayment = class
+
+  end;
+
 implementation
 
 end.
