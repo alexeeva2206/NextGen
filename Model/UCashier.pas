@@ -3,7 +3,7 @@ unit UCashier;
 interface
 
 type
-  Cashier = class
+  TCashier = class
 
   end;
 

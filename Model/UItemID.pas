@@ -3,16 +3,16 @@ unit UItemID;
 interface
 
 type
-  ItemID = class
+  TItemID = class
   public
-  constructor Create(id:integer);
+    constructor Create(id: integer);
   end;
 
 implementation
 
 { ItemID }
 
-constructor ItemID.Create(id: integer);
+constructor TItemID.Create(id: integer);
 begin
 
 end;
