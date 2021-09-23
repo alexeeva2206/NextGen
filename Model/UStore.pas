@@ -15,8 +15,6 @@ type
     catalog: IProductCatalog;
     /// <link>aggregation</link>
     regicter: IRegicter;
-    /// <link>aggregation</link>
-    store: IStore;
   public
     function getRegister(): IRegicter;
     constructor Create();
@@ -28,13 +26,13 @@ implementation
 
 constructor TStore.Create;
 begin
-    catalog:= TProductCatalog.Create();
-    regicter:= TRegicter.Create();
+  catalog := TProductCatalog.Create;
+  regicter := TRegicter.Create(catalog);
 end;
 
 function TStore.getRegister: IRegicter;
 begin
-  result:=regicter;
+  result := regicter;
 end;
 
 end.

@@ -99,7 +99,7 @@
     </reference>
     <reference referencedUin="delphi:e_class:src:Project1:UStore.TStore">
       <property name="$shortcutReference" value="true" />
-      <property name="bounds" value="560,360,145,160" />
+      <property name="bounds" value="560,360,145,145" />
       <property name="hideOperation" value="False" />
       <property name="location_set_by_user" value="True" />
       <reference referencedUin="delphi:e_method:src:Project1:UStore.TStore.Create()" />
@@ -119,12 +119,6 @@
       <reference referencedUin="delphi:l_ast:src:Project1:UStore.TStore.catalog">
         <property name="sourceAnchor" value="705,425" />
         <property name="targetAnchor" value="1424,361" />
-        <property name="bendpoints" value="" />
-      </reference>
-      <reference referencedUin="delphi:e_field:src:Project1:UStore.TStore.store" />
-      <reference referencedUin="delphi:l_ast:src:Project1:UStore.TStore.store">
-        <property name="sourceAnchor" value="623,360" />
-        <property name="targetAnchor" value="623,301" />
         <property name="bendpoints" value="" />
       </reference>
     </reference>
